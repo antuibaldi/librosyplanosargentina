@@ -144,10 +144,7 @@ input[type=checkbox]:checked ~ .label #burg2 {
   align-items: center;
 }
 
-img {
-  width: 100%;
-  height: 100vh;
-}
+
 
 .texto {
   position: absolute;
@@ -168,10 +165,6 @@ img {
     text-align: center;
   }
 
-  img {
-    width: 100%;
-    height: auto;
-  }
 }
 
 /* MAIN */
@@ -389,26 +382,6 @@ button {
 }
 
 
-.libros-argentina {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.libro {
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: center;
-}
-
-.nombreDelLibro {
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-.imagenDelLibro {
-  max-width: 100%;
-}
 
 
 .nosotros {
