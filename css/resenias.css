@@ -1,0 +1,19 @@
+.imagen-resenia{
+    height: 10em;
+    border-radius: 10em;
+}
+
+
+.texto-resenia {
+    display: grid;
+    place-content: center;
+}
+
+#contenedor-resenias {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
