@@ -1,5 +1,5 @@
 const divResenias = document.querySelector("#contenedor-resenias");
-const inputLibros = document.querySelector("#input-nombre");
+const inputResenias = document.querySelector("#input-resenias");
 
 function crearResenias(lista) {
   divResenias.innerHTML = ""; // Clear previous results
@@ -31,12 +31,12 @@ function crearResenias(lista) {
 crearResenias(databasereseniaslibrosJSON);
 
 function buscadorResenias() {
-  const nombreLeido = inputLibros.value.toLowerCase();
+  const nombreLeido = inputResenias.value.toLowerCase();
   divResenias.innerHTML = ""; // Correcting the variable name
 
   if (nombreLeido.trim() !== "") {
     const filtrados = databasereseniaslibrosJSON.filter(libro =>
-      libro.nombre.toLowerCase().includes(nombreLeido)
+      libro.resenia.toLowerCase().includes(nombreLeido)
     );
     crearResenias(filtrados);
   } else {
