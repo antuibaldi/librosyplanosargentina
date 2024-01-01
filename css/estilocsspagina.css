@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    place-content: center;
+}   
+
+#boton-1 {
+    background-color: red;
+    border-radius: 3em;   
+    width: 40em;
+    height: 5em;
+    
+} 
+
+#boton-2 {
+    background-color: rgb(0, 255, 85);
+    border-radius: 3em;   
+    width: 40em;
+    height: 5em;
+    
+
+} 
+
+#imagen {
+    height: 20em;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Libros Argentinos</title>
+  <link rel="shortcut icon" href="../imagenes/faviconlibros.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+
+  <!-- Header --> 
+
+  <header>
+    <div class="contenedor">
+        <nav class="nav_checkbox">
+            <a href="#" class="logo"><h2>Libros Argentina</h2></a>
+            <input type="checkbox" id="tab-nav" class="tab-nav">
+            <label for="tab-nav" class="label">
+                <div id="burg1" class="burger"></div>
+                <div id="burg0" class="burger"></div>
+                <div id="burg2" class="burger"></div>
+            </label>
+            <ul class="content_nav">
+                <li><a href="resenias.html">Reseñas</a></li>
+                <li><a href="sobrenosotros.html">Nosotros</a></li>
+                <li><a href="nuestroslibros.html">Nuestros Libros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<section id="grid-container">
+    <img src="../imagenes/libros-fondo-azul_23-2147615008.jpg" alt="libro">
+    <div class="texto">
+        <h1>Libros <br>Argentina</h1>
+</div>
+</section>
+<section class="contact">
+  <div class="u-wrapper" id="formulario">
+    <div class="contact-content" id="formulario-hijo">
+
+      <form id="form" class="form" action="https://formspree.io/f/xzblroke" method="POST">
+        <h3 class="tag"><span>Contactanos</span></h3>
+        <label for="name">Nombre Completo <span>*</span></label>
+        <input name="name" required type="text" id="name" placeholder="nombre y apellido">
+        <label for="email">Correo electrónico <span>*</span></label>
+        <input name="email" type="text" id="email" required placeholder="tuemail@mail">
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" id="" cols="30" rows="8"></textarea>
+        <button type="submit" class="btn_primary_full">Enviar mensaje</button>
+      </form>
+      <a href="mailto:fersum414@gmail.com" id="apariencia"></a>
+    </div>
+  </div>
+</section>
+      <script src="/javascript/formulario.js"></script>
+</body>
+</html>
